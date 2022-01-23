@@ -10,7 +10,7 @@ import com.saucePageObjects.chechOutPO;
 import com.saucePageObjects.productsPO;
 import com.saucePageObjects.sauceValidateElePO;
 
-import cucumber.api.java.After;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

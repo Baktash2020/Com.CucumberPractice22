@@ -5,6 +5,7 @@
   
   @CrossBrowsing
   
+  @CrossBrowsingChromFireFox
 	Scenario: Login with Chrome
 
 	Given User is in Main Page of Swag Lab

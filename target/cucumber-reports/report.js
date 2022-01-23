@@ -13,7 +13,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 8,
+  "line": 9,
   "name": "Login with Chrome",
   "description": "",
   "id": "login-validation-with-chrome;login-with-chrome",
@@ -23,31 +23,35 @@ formatter.scenario({
     {
       "line": 6,
       "name": "@CrossBrowsing"
+    },
+    {
+      "line": 8,
+      "name": "@CrossBrowsingChromFireFox"
     }
   ]
 });
 formatter.step({
-  "line": 10,
+  "line": 11,
   "name": "User is in Main Page of Swag Lab",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 11,
+  "line": 12,
   "name": "User enters first name in Swag Lab",
   "keyword": "When "
 });
 formatter.step({
-  "line": 12,
+  "line": 13,
   "name": "user enters password in Swag Lab",
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 14,
   "name": "user click signup in Swag Lab",
   "keyword": "And "
 });
 formatter.step({
-  "line": 15,
+  "line": 16,
   "name": "user close Swag Lab page",
   "keyword": "Then "
 });
@@ -55,38 +59,38 @@ formatter.match({
   "location": "crossbrowsingSD.user_is_in_Main_Page_of_Swag_Lab()"
 });
 formatter.result({
-  "duration": 4098200300,
+  "duration": 5867780500,
   "status": "passed"
 });
 formatter.match({
   "location": "crossbrowsingSD.user_enters_first_name_in_Swag_Lab()"
 });
 formatter.result({
-  "duration": 2164957800,
+  "duration": 2192487700,
   "status": "passed"
 });
 formatter.match({
   "location": "crossbrowsingSD.user_enters_password_in_Swag_Lab()"
 });
 formatter.result({
-  "duration": 2131052700,
+  "duration": 2157600100,
   "status": "passed"
 });
 formatter.match({
   "location": "crossbrowsingSD.user_click_signup_in_Swag_Lab()"
 });
 formatter.result({
-  "duration": 13058060200,
+  "duration": 14338679000,
   "status": "passed"
 });
 formatter.match({
   "location": "crossbrowsingSD.user_close_Swag_Lab_page()"
 });
 formatter.result({
-  "duration": 734449900,
+  "duration": 789612200,
   "status": "passed"
 });
-formatter.uri("crossbrowsingEdge.feature");
+formatter.uri("crossbrowsingFirefox.feature");
 formatter.feature({
   "comments": [
     {
@@ -95,83 +99,83 @@ formatter.feature({
     }
   ],
   "line": 5,
-  "name": "Login Validation with Edge",
+  "name": "Login Validation with FireFox",
   "description": "",
-  "id": "login-validation-with-edge",
+  "id": "login-validation-with-firefox",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 9,
-  "name": "Login with Edge",
+  "name": "Login with Firefox",
   "description": "",
-  "id": "login-validation-with-edge;login-with-edge",
+  "id": "login-validation-with-firefox;login-with-firefox",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 7,
-      "name": "@CrossBrowsing"
+      "line": 8,
+      "name": "@CrossBrowsingChromFireFox"
     }
   ]
 });
 formatter.step({
   "line": 11,
-  "name": "User is in Main Page of Edge",
+  "name": "User is in Main Page of Firefox",
   "keyword": "Given "
 });
 formatter.step({
   "line": 12,
-  "name": "User enters first name in Edge",
+  "name": "User enters first name in Firefox",
   "keyword": "When "
 });
 formatter.step({
   "line": 13,
-  "name": "user enters password in Edge",
+  "name": "user enters password in Firefox",
   "keyword": "And "
 });
 formatter.step({
   "line": 14,
-  "name": "user click signup in Edge",
+  "name": "user click signup in Firefox",
   "keyword": "And "
 });
 formatter.step({
   "line": 16,
-  "name": "user close Swag Lab page Edge",
+  "name": "user close Swag Lab page Firefox",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "crossbrowsingEdge.user_is_in_Main_Page_of_Edge()"
+  "location": "crossBrowsingFireFox.user_is_in_Main_Page_of_Firefox()"
 });
 formatter.result({
-  "duration": 3759812600,
+  "duration": 8806316300,
   "status": "passed"
 });
 formatter.match({
-  "location": "crossbrowsingEdge.user_enters_first_name_in_Edge()"
+  "location": "crossBrowsingFireFox.user_enters_first_name_in_Firefox()"
 });
 formatter.result({
-  "duration": 2190461500,
+  "duration": 2215843300,
   "status": "passed"
 });
 formatter.match({
-  "location": "crossbrowsingEdge.user_enters_password_in_Edge()"
+  "location": "crossBrowsingFireFox.user_enters_password_in_Firefox()"
 });
 formatter.result({
-  "duration": 2202641100,
+  "duration": 2119604900,
   "status": "passed"
 });
 formatter.match({
-  "location": "crossbrowsingEdge.user_click_signup_in_Edge()"
+  "location": "crossBrowsingFireFox.user_click_signup_in_Firefox()"
 });
 formatter.result({
-  "duration": 13265285200,
+  "duration": 14107790600,
   "status": "passed"
 });
 formatter.match({
-  "location": "crossbrowsingEdge.user_close_Swag_Lab_page_Edge()"
+  "location": "crossBrowsingFireFox.user_close_Swag_Lab_page_Firefox()"
 });
 formatter.result({
-  "duration": 873430600,
+  "duration": 1622659800,
   "status": "passed"
 });
 });
