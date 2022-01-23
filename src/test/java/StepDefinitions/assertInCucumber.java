@@ -26,8 +26,6 @@ public class assertInCucumber {
 	@Given("^user is in main page$")
 	public void user_is_in_main_page() throws Throwable {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Nilla\\Desktop\\Driver\\chromedriver.exe");
-
-		
 		driver = new ChromeDriver();
 		SVPO = new sauceValidateElePO(driver);
 		PPO = new productsPO(driver);
@@ -96,10 +94,7 @@ public class assertInCucumber {
 		Thread.sleep(2000);
 		PPO.getcheckout().click();
 		
-		
-		
-		
-		
+	
 		Thread.sleep(2000);
 		ChPO.getfirstname().sendKeys("Mike");
 		Thread.sleep(2000);
